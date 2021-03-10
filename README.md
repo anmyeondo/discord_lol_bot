@@ -1,5 +1,4 @@
 # League Of Legend Searching Discord Bot
-=====
 
 Discord bot that retrieves the status of your League of Legends account
 
@@ -10,4 +9,6 @@ Discord bot that retrieves the status of your League of Legends account
 
 2. Get Key from your dashboard
 
-3. Get Token from [Discord API](https://discord.com/developers/applications)
+3. Download profileicon & ranked-emblems
+
+4. Get Token from [Discord API](https://discord.com/developers/applications)
