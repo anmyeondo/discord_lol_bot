@@ -1,5 +1,5 @@
 # League Of Legend Searching Discord Bot
-========================================
+=====
 
 Discord bot that retrieves the status of your League of Legends account
 
