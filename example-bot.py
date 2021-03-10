@@ -9,7 +9,7 @@ bot_token = "Nzc0NTQ4MzQ5OTY1Njk3MDMz.X6ZYXQ.8USj5wXe6WBOb-scWvIEli5skYM"
 riot_key = "RGAPI-e498b380-974d-4355-9809-c2f4c87740b0"
 
 # prefix of command
-# ex - !대답
+# ex - !
 bot = commands.Bot(command_prefix="!")
 
 
@@ -18,19 +18,10 @@ async def on_ready():
     print("{0.user} 어서오고".format(bot))
 
 
-@bot.command("대답")
-async def ans(ctx):
-    await ctx.send("아잇씻팔")
-
-
 @bot.command(name="인사")
 async def hello(ctx, name):
     await ctx.send(f"{name} 어서오고")
 
-
-@bot.command(name="죽상")
-async def say(ctx):
-    await ctx.send("고길동 개잦밥새끼가 꼴받게 하잖아")
 
 
 @bot.command(name="호잇")
