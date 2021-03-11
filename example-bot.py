@@ -5,6 +5,10 @@ from urllib import parse
 from discord.ext import commands
 
 # get token from riot and discord api
+# this token is Expired
+# when you use bot token and riot_key, you must not put the value directly into your code.
+# make other file and import token, key
+# add the above file to .gitignore
 bot_token = "Nzc0NTQ4MzQ5OTY1Njk3MDMz.X6ZYXQ.8USj5wXe6WBOb-scWvIEli5skYM"
 riot_key = "RGAPI-e498b380-974d-4355-9809-c2f4c87740b0"
 
