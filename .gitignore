@@ -1,5 +1,7 @@
 .DS_Store
+config.json
 ranked-emblems
 test.py
 __pycache__
 cat
+.gitignore
